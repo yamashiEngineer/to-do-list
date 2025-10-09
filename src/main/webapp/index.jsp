@@ -26,7 +26,7 @@
       for(String task: todos){
     %>
 
-    <li><%= task %></li>
+    <li><%= task %> <a href="delete?task=<%= task %>">削除</a></li>
     <%
       }
     %>
